@@ -29,3 +29,13 @@ Groups are randomly generated. Each has a supervisor.
 Grade 3: 3 to the group and 3 to the induvidual
 Grade 4: at least 4 to the group and at least 4 to the induvidual
 Grade 5: 5 to the group and 5 to the induvidual
+**Project information, can be found in assignments**
+
+## What is a model?
+A model is a simplification of a system built with an intended goal in mind. The model should be able to answer questions in place of the actual system.
+ - A model has an intent, for a specific costumer
+ - A model is an abstraction
+ - It describes a subject which exists or will exist.
+
+
+We will use model to code transformation.
