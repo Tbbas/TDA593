@@ -21,3 +21,11 @@ There is no needed course book. But *"Applying UML And Patterns"* by Craig Larma
 1. 8 Lectures
 2. 6 Assignments
 3. 5 Compulsory superisions
+
+**Groups**
+Groups are randomly generated. Each has a supervisor.
+
+**Examination**
+Grade 3: 3 to the group and 3 to the induvidual
+Grade 4: at least 4 to the group and at least 4 to the induvidual
+Grade 5: 5 to the group and 5 to the induvidual
