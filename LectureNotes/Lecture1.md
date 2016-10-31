@@ -15,12 +15,12 @@ The objective is to learn how to design syftware systems using software modeling
 3. Improvment on the grading criteria.
 
 **Book**
-There is no needed course book. But *"Applying UML And Patterns"* by Craig Larman is recommended.
+There is no compulsory course book. But *"Applying UML And Patterns"* by Craig Larman is recommended.
 
 **Structure**
 1. 8 Lectures
 2. 6 Assignments
-3. 5 Compulsory superisions
+3. 5 Compulsory supervisions
 
 **Groups**
 Groups are randomly generated. Each has a supervisor.
