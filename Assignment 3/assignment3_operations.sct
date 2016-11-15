@@ -12,22 +12,22 @@
     </regions>
     <regions xmi:id="_i8JfEKqREeaJ853FXW6BEw" name="counterDisplay">
       <vertices xsi:type="sgraph:State" xmi:id="_PBR2oKqSEeaJ853FXW6BEw" name="counting" incomingTransitions="_gs8AEKqSEeaJ853FXW6BEw _kodacKqSEeaJ853FXW6BEw">
-        <outgoingTransitions xmi:id="_lTab8KqSEeaJ853FXW6BEw" specification="" target="_hm9YUKqSEeaJ853FXW6BEw"/>
+        <outgoingTransitions xmi:id="_lTab8KqSEeaJ853FXW6BEw" specification="usr.toggle&#xA;" target="_hm9YUKqSEeaJ853FXW6BEw"/>
         <regions xmi:id="_PBSdsKqSEeaJ853FXW6BEw" name="r1">
           <vertices xsi:type="sgraph:State" xmi:id="_vR560KqREeaJ853FXW6BEw" name="counter0" incomingTransitions="_ujD30KqREeaJ853FXW6BEw _fzHcIKqSEeaJ853FXW6BEw">
-            <outgoingTransitions xmi:id="_xiFNsKqREeaJ853FXW6BEw" specification="" target="_ljAzoKqREeaJ853FXW6BEw"/>
+            <outgoingTransitions xmi:id="_xiFNsKqREeaJ853FXW6BEw" specification="usr.increaseCounter[display.getCounter%5==0]" target="_ljAzoKqREeaJ853FXW6BEw"/>
           </vertices>
           <vertices xsi:type="sgraph:State" xmi:id="_mTKeMKqREeaJ853FXW6BEw" name="counter4" incomingTransitions="_uKSLcKqREeaJ853FXW6BEw">
-            <outgoingTransitions xmi:id="_ujD30KqREeaJ853FXW6BEw" specification="" target="_vR560KqREeaJ853FXW6BEw"/>
+            <outgoingTransitions xmi:id="_ujD30KqREeaJ853FXW6BEw" specification="usr.increaseCounter[display.getCounter%5==4]" target="_vR560KqREeaJ853FXW6BEw"/>
           </vertices>
           <vertices xsi:type="sgraph:State" xmi:id="_mDXHoKqREeaJ853FXW6BEw" name="counter3" incomingTransitions="_t1lt0KqREeaJ853FXW6BEw">
-            <outgoingTransitions xmi:id="_uKSLcKqREeaJ853FXW6BEw" specification="" target="_mTKeMKqREeaJ853FXW6BEw"/>
+            <outgoingTransitions xmi:id="_uKSLcKqREeaJ853FXW6BEw" specification="&#xA;usr.increaseCounter[display.getCounter%5==3]" target="_mTKeMKqREeaJ853FXW6BEw"/>
           </vertices>
           <vertices xsi:type="sgraph:State" xmi:id="_lzffoKqREeaJ853FXW6BEw" name="counter2" incomingTransitions="_tfSGoKqREeaJ853FXW6BEw">
-            <outgoingTransitions xmi:id="_t1lt0KqREeaJ853FXW6BEw" specification="" target="_mDXHoKqREeaJ853FXW6BEw"/>
+            <outgoingTransitions xmi:id="_t1lt0KqREeaJ853FXW6BEw" specification="usr.increaseCounter[display.getCounter%5==2]" target="_mDXHoKqREeaJ853FXW6BEw"/>
           </vertices>
           <vertices xsi:type="sgraph:State" xmi:id="_ljAzoKqREeaJ853FXW6BEw" name="counter1" incomingTransitions="_xiFNsKqREeaJ853FXW6BEw">
-            <outgoingTransitions xmi:id="_tfSGoKqREeaJ853FXW6BEw" specification="" target="_lzffoKqREeaJ853FXW6BEw"/>
+            <outgoingTransitions xmi:id="_tfSGoKqREeaJ853FXW6BEw" specification="usr.increaseCounter[display.getCounter%5==1]" target="_lzffoKqREeaJ853FXW6BEw"/>
           </vertices>
           <vertices xsi:type="sgraph:Entry" xmi:id="_fSUcMKqSEeaJ853FXW6BEw" kind="SHALLOW_HISTORY">
             <outgoingTransitions xmi:id="_fzHcIKqSEeaJ853FXW6BEw" target="_vR560KqREeaJ853FXW6BEw"/>
@@ -38,7 +38,7 @@
         <outgoingTransitions xmi:id="_gs8AEKqSEeaJ853FXW6BEw" target="_PBR2oKqSEeaJ853FXW6BEw"/>
       </vertices>
       <vertices xsi:type="sgraph:State" xmi:id="_hm9YUKqSEeaJ853FXW6BEw" name="toggled" incomingTransitions="_lTab8KqSEeaJ853FXW6BEw">
-        <outgoingTransitions xmi:id="_kodacKqSEeaJ853FXW6BEw" specification="" target="_PBR2oKqSEeaJ853FXW6BEw"/>
+        <outgoingTransitions xmi:id="_kodacKqSEeaJ853FXW6BEw" specification="usr.toggleCounter" target="_PBR2oKqSEeaJ853FXW6BEw"/>
       </vertices>
     </regions>
   </sgraph:Statechart>
@@ -276,7 +276,7 @@
     <edges xmi:id="_tfVJ8KqREeaJ853FXW6BEw" type="Transition" element="_tfSGoKqREeaJ853FXW6BEw" source="_ljCBwKqREeaJ853FXW6BEw" target="_lzgtwKqREeaJ853FXW6BEw">
       <children xsi:type="notation:DecorationNode" xmi:id="_tfVJ9KqREeaJ853FXW6BEw" type="TransitionExpression">
         <styles xsi:type="notation:ShapeStyle" xmi:id="_tfVJ9aqREeaJ853FXW6BEw"/>
-        <layoutConstraint xsi:type="notation:Location" xmi:id="_tfVJ9qqREeaJ853FXW6BEw" x="-9" y="-63"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_tfVJ9qqREeaJ853FXW6BEw" x="-40" y="130"/>
       </children>
       <styles xsi:type="notation:ConnectorStyle" xmi:id="_tfVJ8aqREeaJ853FXW6BEw" lineColor="4210752"/>
       <styles xsi:type="notation:FontStyle" xmi:id="_tfVJ86qREeaJ853FXW6BEw" fontName="Verdana"/>
@@ -306,7 +306,7 @@
     <edges xmi:id="_ujFtAKqREeaJ853FXW6BEw" type="Transition" element="_ujD30KqREeaJ853FXW6BEw" source="_mTLsUKqREeaJ853FXW6BEw" target="_vR7wAKqREeaJ853FXW6BEw">
       <children xsi:type="notation:DecorationNode" xmi:id="_ujFtBKqREeaJ853FXW6BEw" type="TransitionExpression">
         <styles xsi:type="notation:ShapeStyle" xmi:id="_ujFtBaqREeaJ853FXW6BEw"/>
-        <layoutConstraint xsi:type="notation:Location" xmi:id="_ujFtBqqREeaJ853FXW6BEw" x="-48" y="63"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_ujFtBqqREeaJ853FXW6BEw" x="-84" y="115"/>
       </children>
       <styles xsi:type="notation:ConnectorStyle" xmi:id="_ujFtAaqREeaJ853FXW6BEw" lineColor="4210752"/>
       <styles xsi:type="notation:FontStyle" xmi:id="_ujFtA6qREeaJ853FXW6BEw" fontName="Verdana"/>
@@ -315,7 +315,7 @@
     <edges xmi:id="_xiGb0KqREeaJ853FXW6BEw" type="Transition" element="_xiFNsKqREeaJ853FXW6BEw" source="_vR7wAKqREeaJ853FXW6BEw" target="_ljCBwKqREeaJ853FXW6BEw">
       <children xsi:type="notation:DecorationNode" xmi:id="_xiGb1KqREeaJ853FXW6BEw" type="TransitionExpression">
         <styles xsi:type="notation:ShapeStyle" xmi:id="_xiGb1aqREeaJ853FXW6BEw"/>
-        <layoutConstraint xsi:type="notation:Location" xmi:id="_xiHC4KqREeaJ853FXW6BEw" x="29" y="37"/>
+        <layoutConstraint xsi:type="notation:Location" xmi:id="_xiHC4KqREeaJ853FXW6BEw" x="110" y="57"/>
       </children>
       <styles xsi:type="notation:ConnectorStyle" xmi:id="_xiGb0aqREeaJ853FXW6BEw" lineColor="4210752"/>
       <styles xsi:type="notation:FontStyle" xmi:id="_xiGb06qREeaJ853FXW6BEw" fontName="Verdana"/>

@@ -5,16 +5,22 @@ public class Assignment3Operations {
 	private boolean toggled = false;
 	
 	public void increaseCounter() {
+		counter++;
 	}
 	
 	public long getCounter() {
-		return -1;
+		return counter;
 	}
 	
 	public void toggleCounter() {
+		if(toggled) {
+			toggled = false;
+		} else {
+			toggled = true;
+		}
 	}
 	
 	public boolean isToggled() {
-		return false;
+		return toggled;
 	}
 }
